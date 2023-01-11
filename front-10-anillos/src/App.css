@@ -1,0 +1,52 @@
+body{
+  background-color: rgba(0, 0, 0, 0.788);
+}
+.holder{
+  max-width: 1270px;
+  display: flex;
+  margin: 0 auto;
+}
+h2{
+  color: white;
+  font-size: 40px;
+  font-family: 'Anton', sans-serif;
+  text-decoration: underline;
+  margin-left: 15px;
+}
+h3{
+  color: skyblue;
+  font-size: 16px;
+  font-family: 'Anton', sans-serif;
+  margin: 10px 0;
+}
+h4{
+  color: white;
+  font-size: 15px;
+  margin: 0;
+}
+
+@media screen and (max-width: 800px){
+  section{
+      width: 100%;
+      margin-left: 70px;
+  }
+  section .carta{
+      width: 200px;
+      display: inline-block;
+      flex-wrap: wrap;
+      margin: 10px 10px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  section{
+      width: 100%;
+      margin-left: 90px;
+  }
+  section .carta{
+      width: 200px;
+      display: inline-block;
+      flex-wrap: wrap;
+      margin: 10px 10px;
+  }
+}

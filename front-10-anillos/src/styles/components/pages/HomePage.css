@@ -1,0 +1,9 @@
+.portada{
+    height: 300px;
+}
+.carta{
+    width: 200px;
+    display: inline-block;
+    flex-wrap: wrap;
+    margin: 20px 20px;
+}
